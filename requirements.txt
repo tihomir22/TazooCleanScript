@@ -3,3 +3,8 @@ webdriver_manager
 pandas
 cdifflib
 nltk
+azure-storage-blob
+azure-identity
+pandas
+python-dotenv
+pyarrow

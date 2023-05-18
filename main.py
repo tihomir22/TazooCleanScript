@@ -4,7 +4,7 @@ import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 from difflib import get_close_matches
 
-text = "04/06/2023 05:58:00   the street Abu Masaifa A in front of boulevard de Waterloo is blocked.  this car (plate 533KAS) is stuck there since a lot time.  for more information, please call 093/21.47.86.  the police are doing something about this but they can't help us to move our cars from the street Abu Masaifa in front of Boulevard de Waterloo until the car plate 533KAS is moved.  The reason why we have a traffic jam in. In the street Abu Masaifa. The car AC696KS"
+text = "9/11/2023 05:09:54   Ahora, ahora que parece que se ha solucionado el problema de los retrasos inexplicables de los vehículos en la calle Ausias MarchB The car AC299KS  La verdad, al principio nos daba pena ver cómo iban y venían las cámaras grabando los coches que se detenían. Y se hacía más difícil aún porque los coches que iban de paso no se paraban. Por eso decíamos que el problema era inexplicable. Pero, claro"
 palabras_mensaje = text.split()
 
 with open('streets.json', 'r', encoding='utf-8') as file:
